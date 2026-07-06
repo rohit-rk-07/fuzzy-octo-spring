@@ -1,0 +1,9 @@
+package com.rohit.app;
+
+@Component
+public class Laptop {
+	
+	public void compile() {
+		System.out.println("Compiling...");
+	}
+}
