@@ -244,5 +244,5 @@
 <public publicId="-//Hibernate/Hibernate Configuration DTD 3.0//EN" uri="file:///C:/Users/91636/eclipse/jee-2026-03/eclipse/../../../.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.23.v20231123-1018/dtd/hibernate-configuration-3.0.dtd"/>
 <public publicId="-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" uri="file:///C:/Users/91636/eclipse/jee-2026-03/eclipse/../../../.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.23.v20231123-1018/dtd/hibernate-reverse-engineering-3.0.dtd"/>
 <public publicId="-//Red Hat, Inc.//DTD Meta 1.0//EN" uri="file:///C:/Users/91636/eclipse/jee-2026-03/eclipse/../../../.p2/pool/plugins/org.jboss.tools.common.model_3.18.0.v20230908-0745/schema/meta.dtd"/>
-<public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/Users/91636/.p2/pool/plugins/org.springsource.ide.eclipse.commons.ui_5.2.0.202606051947.jar!/dtd/log4j-1.2.dtd"/>
+<public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/C:/Users/91636/eclipse/jee-2026-03/eclipse/../../../.p2/pool/plugins/org.springsource.ide.eclipse.commons.ui_5.2.0.202606051947.jar!/dtd/log4j-1.2.dtd"/>
 </catalog>

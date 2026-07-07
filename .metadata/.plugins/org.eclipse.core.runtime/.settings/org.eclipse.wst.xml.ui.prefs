@@ -20,6 +20,7 @@ doctypeName,defaultValueBeforeOverriddenFromCSS=\#00fefe | null | false
 eclipse.preferences.version=1
 entityReference=\#8DCBE2 | null | null | null | null | null
 entityReference,defaultValueBeforeOverriddenFromCSS=\#d400ff | null | false
+newFileTemplateName=xml declaration
 overriddenByCSS=,cdataBorder,cdataText,commentBorder,commentText,declBoder,declBorder,doctypeExternalId,doctypeExternalPubref,doctypeExtrenalSysref,doctypeName,entityReference,piBorder,piContent,tagAttributeEquals,tagAttributeName,tagAttributeValue,tagBorder,tagName,xmlContent,
 piBorder=\#FFFFFF | null | null | null | null | null
 piBorder,defaultValueBeforeOverriddenFromCSS=\#00fefe | null | false
