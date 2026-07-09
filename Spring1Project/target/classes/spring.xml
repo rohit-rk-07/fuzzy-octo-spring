@@ -2,14 +2,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <!-- bean definitions here -->
     
-	<bean id="alien" class="com.rohit.Alien"> 
-		 <property name="age" value="21">
-			
-		</property>
+	<bean id="alien" class="com.rohit.Alien" autowire="byType"> 
+	
+		<property name="age" value="21"/>
+		<property name="com" ref="com2"/>
+		
 	</bean>
+	
+	<bean id="com1" class="com.rohit.Laptop" primary="true"> </bean>
+
+	<bean id="com2" class="com.rohit.Desktop" lazy-init="true"> </bean>
 
 </beans>
 
