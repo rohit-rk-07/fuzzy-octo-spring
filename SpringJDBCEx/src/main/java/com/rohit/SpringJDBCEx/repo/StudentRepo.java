@@ -17,7 +17,6 @@ public class StudentRepo {
 	
 	private JdbcTemplate jdbc;
 	
-
 	public JdbcTemplate getJdbc() {
 		return jdbc;
 	}
@@ -38,7 +37,6 @@ public class StudentRepo {
 		
 		RowMapper<Student> mapper = new RowMapper<Student>() {
 			public Student mapRow(ResultSet rs, int rowNum) throws SQLException {
-				
 				Student s = new Student();
 				s.setRollNo(rs.getInt("rollno"));
 				s.setName(rs.getString("name"));

@@ -1,9 +1,0 @@
-package com.rohit.app;
-
-@Component
-public class Alien {
-	
-	public void code() {
-		
-	}
-}
