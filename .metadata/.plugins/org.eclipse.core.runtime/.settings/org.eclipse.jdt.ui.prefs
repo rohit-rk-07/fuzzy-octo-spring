@@ -150,6 +150,7 @@ semanticHighlighting.localVariableDeclaration.strikethrough=false
 semanticHighlighting.localVariableDeclaration.underline=false
 semanticHighlighting.method.bold=false
 semanticHighlighting.method.color=255,255,255
+semanticHighlighting.method.color,defaultValueBeforeOverriddenFromCSS=0,0,0
 semanticHighlighting.method.enabled=true
 semanticHighlighting.method.enabled,defaultValueBeforeOverriddenFromCSS=false
 semanticHighlighting.method.italic=false

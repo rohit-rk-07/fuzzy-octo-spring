@@ -13,19 +13,21 @@ public class EmployeeService {
 	
 	private EmployeeRepo repo;
 
+	//getters and setters
 	public EmployeeRepo getRepo() {
 		return repo;
 	}
-
 	@Autowired
 	public void setRepo(EmployeeRepo repo) {
 		this.repo = repo;
 	}
 	
+	//add employee method
 	public void addEmployee(Employee e) {
 		repo.save(e);
 	}
 	
+	//get all employees method
 	public List<Employee> getEmployee() {
 		return repo.findAll();
 	}

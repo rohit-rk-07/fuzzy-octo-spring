@@ -190,6 +190,7 @@ org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Fira Code Medium|10.0|0|WI
 org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Fira Code Medium|10.0|0|WINDOWS|1|-13|0|0|0|500|0|0|0|0|3|2|1|1|Fira Code Medium;
 org.eclipse.jdt.ui.ColoredLabels.inherited=143,143,191
 org.eclipse.jdt.ui.ColoredLabels.inherited,defaultValueBeforeOverriddenFromCSS=111,197,238
+org.eclipse.jdt.ui.ColoredLabels.match_highlight=73,83,90
 org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight=255,128,128
 org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight,defaultValueBeforeOverriddenFromCSS=240,216,168
 org.eclipse.jdt.ui.Javadoc.backgroundColor=48,54,59
