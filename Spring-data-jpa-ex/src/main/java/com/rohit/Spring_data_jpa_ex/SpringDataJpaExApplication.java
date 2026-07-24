@@ -20,23 +20,38 @@ public class SpringDataJpaExApplication {
 		
 //		s1.setRollNo(101);
 //		s1.setName("Peter");
-//		s1.setMarks(45);
+//		s1.setMarks(72);
 //		
 //		s2.setRollNo(102);
 //		s2.setName("Quagmire");
 //		s2.setMarks(98);
 //		
-//		s3.setRollNo(103);
-//		s3.setName("John");
-//		s3.setMarks(67);
+		s3.setRollNo(103);
+		s3.setName("John");
+		s3.setMarks(67);
 //		repo.save(s3);
 		
-		System.out.println(repo.findById(101));
+//		System.out.println(repo.findById(109));
+		
+//		System.out.println(repo.findByName("Peter"));
+		
+//		System.out.println(repo.findByMarks(98));
+		
+//		System.out.println(repo.findByMarksGreaterThan(60));
+		
+//		repo.save(s1);
+		
+		repo.delete(s3);
+		
 	}
 
 }
 
 
-// [Student [rollNo=101, name=Peter, marks=45], 
-// Student [rollNo=102, name=Quagmire, marks=98], 
+
+//[Student [rollNo=102, name=Quagmire, marks=98]]
+
+//[Student [rollNo=101, name=Peter, marks=45]]
+
+//[Student [rollNo=102, name=Quagmire, marks=98], 
 // Student [rollNo=103, name=John, marks=67]]
