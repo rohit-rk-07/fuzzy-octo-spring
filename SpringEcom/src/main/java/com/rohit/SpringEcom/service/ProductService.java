@@ -40,6 +40,11 @@ public class ProductService {
 		
 	}
 
+	public List<Product> searchProducts(String keyword) {
+		
+		return productRepo.searchProducts(keyword);
+	}
+
 //	public Product updateProduct(Product product, MultipartFile image) throws IOException {
 //		product.setImageName(image.getOriginalFilename());
 //		product.setImageType(image.getContentType());
