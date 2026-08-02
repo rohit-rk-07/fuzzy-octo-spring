@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,9 +16,10 @@ import com.rohit.SpringEcom.model.dto.OrderRequest;
 import com.rohit.SpringEcom.model.dto.OrderResponse;
 import com.rohit.SpringEcom.service.OrderService;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
-@CrossOrigin
+
 public class OrderController {
 	
 	@Autowired
@@ -29,7 +31,8 @@ public class OrderController {
 		return new ResponseEntity<>(orderResponse, HttpStatus.CREATED);
 	}
 	
-	@PostMapping("/orders")
+	@CrossOrigin
+	@GetMapping("/orders")
 	public ResponseEntity<List<OrderResponse>> getAllOrders(){
 		List<OrderResponse> response = orderService.getAllOrdersResponses();
 		return new ResponseEntity<>(response, HttpStatus.OK);
