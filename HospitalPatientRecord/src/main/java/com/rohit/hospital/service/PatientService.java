@@ -30,4 +30,8 @@ public class PatientService {
 		return patientRepo.save(patient);
 	}
 
+	public void deletePatient(int id) {
+		patientRepo.deleteById(id);
+	}
+
 }
