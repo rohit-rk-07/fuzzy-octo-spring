@@ -20,8 +20,8 @@
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.SelectableIUsPage">
 		<item key="NameColumnWidth" value="360"/>
-		<item key="VersionColumnWidth" value="120"/>
-		<item key="IDColumnWidth" value="240"/>
+		<item key="VersionColumnWidth" value="128"/>
+		<item key="IDColumnWidth" value="120"/>
 		<item key="ListSashWeight" value="800"/>
 		<item key="DetailsSashWeight" value="200"/>
 	</section>

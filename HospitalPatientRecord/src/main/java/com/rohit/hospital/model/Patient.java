@@ -19,12 +19,12 @@ public class Patient {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Long patientId;
-	String patientName;
+	String patient_name;
 	int age;
 	String gender;
 	String disease;
-	String doctorName;
-	Date admissionDate;
-	String phoneNumber;
+	String doctor_name;
+	Date admission_date;
+	String phone_number;
 	
 }
