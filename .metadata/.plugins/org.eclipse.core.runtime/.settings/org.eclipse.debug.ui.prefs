@@ -10,13 +10,13 @@ org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UT
 org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
 org.eclipse.debug.ui.changedDebugElement=255,128,128
 org.eclipse.debug.ui.changedDebugElement,defaultValueBeforeOverriddenFromCSS=255,0,0
-org.eclipse.debug.ui.consoleBackground=25,29,31
+org.eclipse.debug.ui.consoleBackground=18,18,18
 org.eclipse.debug.ui.consoleBackground,defaultValueBeforeOverriddenFromCSS=255,255,255
-org.eclipse.debug.ui.errorColor=216,216,216
+org.eclipse.debug.ui.errorColor=203,118,118
 org.eclipse.debug.ui.errorColor,defaultValueBeforeOverriddenFromCSS=255,0,0
 org.eclipse.debug.ui.inColor=140,175,210
 org.eclipse.debug.ui.inColor,defaultValueBeforeOverriddenFromCSS=0,200,125
-org.eclipse.debug.ui.outColor=216,216,216
+org.eclipse.debug.ui.outColor=219,215,202
 org.eclipse.debug.ui.outColor,defaultValueBeforeOverriddenFromCSS=0,0,0
 org.eclipse.debug.ui.save_dirty_editors_before_launch=always
 org.eclipse.debug.ui.user_view_bindings=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<viewBindings>\r\n    <view id\="org.eclipse.jdt.debug.ui.DisplayView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n    <view id\="org.eclipse.debug.ui.ExpressionView">\r\n        <perspective id\="org.eclipse.debug.ui.DebugPerspective" userAction\="opened"/>\r\n    </view>\r\n</viewBindings>\r\n
