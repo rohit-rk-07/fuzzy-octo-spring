@@ -10,7 +10,7 @@ org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UT
 org.eclipse.debug.ui.cancel_launch_with_compile_errors=always
 org.eclipse.debug.ui.changedDebugElement=255,128,128
 org.eclipse.debug.ui.changedDebugElement,defaultValueBeforeOverriddenFromCSS=255,0,0
-org.eclipse.debug.ui.consoleBackground=18,18,18
+org.eclipse.debug.ui.consoleBackground=0,0,0
 org.eclipse.debug.ui.consoleBackground,defaultValueBeforeOverriddenFromCSS=255,255,255
 org.eclipse.debug.ui.errorColor=203,118,118
 org.eclipse.debug.ui.errorColor,defaultValueBeforeOverriddenFromCSS=255,0,0
