@@ -70,7 +70,6 @@ public class EmployeeService {
 				savedEmployee.getJoiningDate(),
 				savedEmployee.getDepartment()
 		);
-		
 	}
 	
 	public EmployeeResponseDTO UpdateEmployee(int id, EmployeeRequestDTO employeeDTO) {
