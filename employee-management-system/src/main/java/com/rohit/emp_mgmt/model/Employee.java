@@ -4,9 +4,12 @@ import java.util.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -39,8 +42,12 @@ public class Employee {
 	@Column(name="emp_join_date")
 	private Date joiningDate;
 	
-	@Column(name="emp_department")
-	private String department;
+//	@Column(name="emp_department")
+//	private String department;
+	
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="department_id", nullable=false)
+	private Department department;
 	
 }
 

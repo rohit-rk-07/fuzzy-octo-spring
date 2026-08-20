@@ -7,7 +7,9 @@ import org.springframework.stereotype.Service;
 
 import com.rohit.emp_mgmt.dto.EmployeeRequestDTO;
 import com.rohit.emp_mgmt.dto.EmployeeResponseDTO;
+import com.rohit.emp_mgmt.model.Department;
 import com.rohit.emp_mgmt.model.Employee;
+import com.rohit.emp_mgmt.repository.DepartmentRepository;
 import com.rohit.emp_mgmt.repository.EmployeeRepository;
 
 @Service
@@ -15,6 +17,9 @@ public class EmployeeService {
 
 	@Autowired
 	private EmployeeRepository employeeRepo;
+	
+	@Autowired
+	private DepartmentRepository departmentRepo;
 	
 	//method to get all employees from the repository
 	public List<EmployeeResponseDTO> getAllEmployees(){
@@ -27,7 +32,8 @@ public class EmployeeService {
 				employee.getPhone(),
 				employee.getSalary(),
 				employee.getJoiningDate(),
-				employee.getDepartment()
+				employee.getDepartment().getId(),
+				employee.getDepartment().getName()
 				)).toList();
 	}
 	
@@ -44,7 +50,8 @@ public class EmployeeService {
 					employee.getPhone(),
 					employee.getSalary(),
 					employee.getJoiningDate(),
-					employee.getDepartment()
+					employee.getDepartment().getId(),
+					employee.getDepartment().getName()
 			);
 		}
 		return null;
@@ -56,9 +63,14 @@ public class EmployeeService {
 		employee.setName(employeeDTO.name());
 		employee.setEmail(employeeDTO.email());
 		employee.setPhone(employeeDTO.phone());
+		employee.setSalary(employeeDTO.salary());
 		employee.setJoiningDate(employeeDTO.joiningDate());
-		employee.setDepartment(employeeDTO.department());
 		
+		Department department = departmentRepo
+								.findById(employeeDTO.departmentId())
+								.orElseThrow( () -> new RuntimeException("Department not found"));
+		
+		employee.setDepartment(department);
 		Employee savedEmployee = employeeRepo.save(employee);
 		
 		return new EmployeeResponseDTO(
@@ -68,7 +80,8 @@ public class EmployeeService {
 				savedEmployee.getPhone(),
 				savedEmployee.getSalary(),
 				savedEmployee.getJoiningDate(),
-				savedEmployee.getDepartment()
+				savedEmployee.getDepartment().getId(),
+				savedEmployee.getDepartment().getName()
 		);
 	}
 	
@@ -83,7 +96,10 @@ public class EmployeeService {
 		employee.setPhone(employeeDTO.phone());
 		employee.setSalary(employeeDTO.salary());
 		employee.setJoiningDate(employeeDTO.joiningDate());
-		employee.setDepartment(employeeDTO.department());
+		Department department = departmentRepo
+								.findById(employeeDTO.departmentId())
+								.orElseThrow(() -> new RuntimeException("Department not found"));
+		employee.setDepartment(department);
 		
 		Employee updatedEmployee = employeeRepo.save(employee);
 		
@@ -94,7 +110,8 @@ public class EmployeeService {
 				updatedEmployee.getPhone(),
 				updatedEmployee.getSalary(),
 				updatedEmployee.getJoiningDate(),
-				updatedEmployee.getDepartment()
+				updatedEmployee.getDepartment().getId(),
+				updatedEmployee.getDepartment().getName()
 		);
 	}
 	
@@ -116,7 +133,8 @@ public class EmployeeService {
 					employee.getPhone(),
 					employee.getSalary(),
 					employee.getJoiningDate(),
-					employee.getDepartment()
+					employee.getDepartment().getId(),
+					employee.getDepartment().getName()
 				)).toList();
 	}
 	

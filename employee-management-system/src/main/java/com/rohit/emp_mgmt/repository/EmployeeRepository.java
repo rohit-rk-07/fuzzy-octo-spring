@@ -15,7 +15,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer>  {
 	@Query("SELECT e FROM Employee e WHERE " 
 		     + "LOWER(e.name) LIKE LOWER(CONCAT('%', :keyword, '%')) OR "
 		     + "LOWER(e.email) LIKE LOWER(CONCAT('%', :keyword, '%')) OR "
-		     + "LOWER(e.department) LIKE LOWER(CONCAT('%', :keyword, '%'))")
+		     + "LOWER(e.department.name) LIKE LOWER(CONCAT('%', :keyword, '%'))")
 		List<Employee> searchEmployees(@Param("keyword") String keyword);
 
 }

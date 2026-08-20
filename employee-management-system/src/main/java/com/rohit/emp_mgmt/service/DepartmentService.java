@@ -42,7 +42,35 @@ public class DepartmentService {
 
 	public DepartmentResponseDTO addDepartment(DepartmentRequestDTO departmentRequestDto) {
 		Department department = new Department();
-		return null;
+		department.setName(departmentRequestDto.name());
+		department.setLocation(departmentRequestDto.location());
+		
+		Department savedDepartment = departmentRepo.save(department);
+		
+		return new DepartmentResponseDTO(
+				savedDepartment.getId(),
+				savedDepartment.getName(),
+				savedDepartment.getLocation()
+				);
+	}
+
+	public DepartmentResponseDTO updateDepartment(DepartmentRequestDTO departmentRequestDto, int departmentId) {
+		Department department = departmentRepo.findById(departmentId).orElse(null);
+		
+		department.setName(departmentRequestDto.name());
+		department.setLocation(departmentRequestDto.location());
+		
+		Department updatedDepartment = departmentRepo.save(department);
+		
+		return new DepartmentResponseDTO(
+				updatedDepartment.getId(),
+				updatedDepartment.getName(),
+				updatedDepartment.getLocation()
+				);
+	}
+
+	public void deleteDepartment(int departmentId) {
+		departmentRepo.deleteById(departmentId);
 	}
 
 }
