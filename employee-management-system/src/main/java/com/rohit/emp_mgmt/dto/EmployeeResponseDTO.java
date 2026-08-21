@@ -11,5 +11,7 @@ public record EmployeeResponseDTO(
 		int salary,
 		Date joiningDate,
 		int departmentId,
-		String departmentName
+		String departmentName,
+		int roleId,
+		String role
 		) {}

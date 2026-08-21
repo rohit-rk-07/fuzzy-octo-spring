@@ -32,7 +32,7 @@ public class EmployeeController {
 	//GET-API end-point to get all the employee details 
 	@GetMapping("/employees")
 	public ResponseEntity<List<EmployeeResponseDTO>> getEmployees(){
-		return new ResponseEntity<>(employeeService.getAllEmployees(), HttpStatus.ACCEPTED);
+		return new ResponseEntity<>(employeeService.getAllEmployees(), HttpStatus.OK);
 	}
 	
 	//GET-API end-point to get a single specific employee details by Id;
@@ -47,7 +47,7 @@ public class EmployeeController {
 		}
 	}
 	
-	// this POST-API Controller end-point to store data of employee 
+	//POST-API Controller end-point to store data of employee 
 	@PostMapping("/employees")
 	public ResponseEntity<?> addEmployee(@RequestBody EmployeeRequestDTO employeeDTO){
 		EmployeeResponseDTO savedEmployee = employeeService.addEmployee(employeeDTO);
@@ -73,7 +73,7 @@ public class EmployeeController {
 			
 			if(employee != null) {
 				employeeService.deleteEmployee(id);
-				return new ResponseEntity<>("Deleted", HttpStatus.OK);
+				return new ResponseEntity<>("Deleted", HttpStatus.NO_CONTENT);
 			} else {
 				return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 			}

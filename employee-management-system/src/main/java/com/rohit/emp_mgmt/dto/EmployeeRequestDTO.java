@@ -9,5 +9,6 @@ public record EmployeeRequestDTO (
 		String phone,
 		int salary,
 		Date joiningDate,
-		int departmentId
+		int departmentId,
+		int roleId
 		) { }
