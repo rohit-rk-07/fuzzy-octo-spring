@@ -27,10 +27,11 @@
     <fullyQualifiedTypeName name="com.rohit.product_inventory.model.User"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.rohit.emp_mgmt.dto.DepartmentResponseDTO"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.rohit.emp_mgmt.dto.DepartmentResponseDTO"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.rohit.emp_mgmt.model.Role"/>
 </qualifiedTypeNameHistroy>
