@@ -51,7 +51,7 @@ public class ProjectService {
 	}
 
 	public ProjectResponseDTO getProjectById(int id) {
-		Project project = projectRepository.findById(id).orElseThrow();
+		Project project = projectRepository.findById(id).orElseThrow(null);
 		
 		return new ProjectResponseDTO(
 				project.getId(),
@@ -114,5 +114,46 @@ public class ProjectService {
 									).toList()
 				);
 	}
+
+	public ProjectResponseDTO updateProject(ProjectRequestDTO projectDTO, int id) {
+		
+		Project project = projectRepository.findById(id).orElseThrow();
+		project.setName(projectDTO.name());
+		project.setDescription(projectDTO.description());
+		project.setStartDate(projectDTO.startDate());
+		project.setEndDate(projectDTO.endDate());
+		project.setStatus(projectDTO.status());
+		List<Employee> employees = employeeRepo.findAllById(projectDTO.employeesIds());
+		project.setEmployees(employees);
+		
+		Project updatedProject = projectRepository.save(project);
+		
+		return new ProjectResponseDTO(
+					updatedProject.getId(),
+					updatedProject.getName(),
+					updatedProject.getDescription(),
+					updatedProject.getStartDate(),
+					updatedProject.getEndDate(),
+					updatedProject.getStatus(),
+					updatedProject.getEmployees().stream()
+					.map( employee -> new EmployeeResponseDTO(
+							employee.getId(),
+							employee.getName(),
+							employee.getEmail(),
+							employee.getPhone(),
+							employee.getSalary(),
+							employee.getJoiningDate(),
+							employee.getDepartment().getId(),
+							employee.getDepartment().getName(),
+							employee.getRole().getId(),
+							employee.getRole().getRole()
+						)
+							).toList()
+				);
+	}
+
+	public void deleteProjectById(int id) {
+		projectRepository.deleteById(id);
+	} 
 
 }

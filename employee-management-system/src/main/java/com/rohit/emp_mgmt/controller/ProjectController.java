@@ -5,9 +5,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -45,4 +47,20 @@ public class ProjectController {
 		return new ResponseEntity<>(savedProject, HttpStatus.CREATED);
 	}
 	
+	@PutMapping("/projects/{id}")
+	public ResponseEntity<ProjectResponseDTO> updateProject(@RequestBody ProjectRequestDTO projectDTO, @PathVariable int id) {
+		ProjectResponseDTO updatedProject = projectService.updateProject(projectDTO, id);
+		return new ResponseEntity<>(updatedProject, HttpStatus.OK);
+	}
+	
+	@DeleteMapping("/projects/{id}")
+	public ResponseEntity<?> deleteProject(@PathVariable() int id) {
+		ProjectResponseDTO project = projectService.getProjectById(id);
+		if(project != null) {
+			projectService.deleteProjectById(id);
+			return new ResponseEntity<>("Deleted Id: "+ id, HttpStatus.NO_CONTENT);
+		} else {
+			return new ResponseEntity<>("Not Found: "+ id,HttpStatus.NOT_FOUND);
+		}
+	}
 }
