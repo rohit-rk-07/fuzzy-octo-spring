@@ -3,8 +3,12 @@ package com.rohit.emp_mgmt.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.rohit.emp_mgmt.dto.DashboardStatsDTO;
+//import com.rohit.emp_mgmt.controller.EmployeeResponseDTO;
 import com.rohit.emp_mgmt.dto.EmployeeRequestDTO;
 import com.rohit.emp_mgmt.dto.EmployeeResponseDTO;
 import com.rohit.emp_mgmt.model.Department;
@@ -37,6 +41,7 @@ public class EmployeeService {
 				employee.getPhone(),
 				employee.getSalary(),
 				employee.getJoiningDate(),
+				employee.getStatus(),
 				employee.getDepartment().getId(),
 				employee.getDepartment().getName(),
 				employee.getRole().getId(),
@@ -57,6 +62,7 @@ public class EmployeeService {
 					employee.getPhone(),
 					employee.getSalary(),
 					employee.getJoiningDate(),
+					employee.getStatus(),
 					employee.getDepartment().getId(),
 					employee.getDepartment().getName(),
 					employee.getRole().getId(),
@@ -73,6 +79,7 @@ public class EmployeeService {
 		employee.setEmail(employeeDTO.email());
 		employee.setPhone(employeeDTO.phone());
 		employee.setSalary(employeeDTO.salary());
+		employee.setStatus(employeeDTO.status());
 		employee.setJoiningDate(employeeDTO.joiningDate());
 		
 		Department department = departmentRepo
@@ -94,6 +101,7 @@ public class EmployeeService {
 				savedEmployee.getPhone(),
 				savedEmployee.getSalary(),
 				savedEmployee.getJoiningDate(),
+				savedEmployee.getStatus(),
 				savedEmployee.getDepartment().getId(),
 				savedEmployee.getDepartment().getName(),
 				savedEmployee.getRole().getId(),
@@ -111,6 +119,7 @@ public class EmployeeService {
 		employee.setEmail(employeeDTO.email());
 		employee.setPhone(employeeDTO.phone());
 		employee.setSalary(employeeDTO.salary());
+		employee.setStatus(employeeDTO.status());
 		employee.setJoiningDate(employeeDTO.joiningDate());
 		
 		Department department = departmentRepo
@@ -131,6 +140,7 @@ public class EmployeeService {
 				updatedEmployee.getPhone(),
 				updatedEmployee.getSalary(),
 				updatedEmployee.getJoiningDate(),
+				updatedEmployee.getStatus(),
 				updatedEmployee.getDepartment().getId(),
 				updatedEmployee.getDepartment().getName(),
 				updatedEmployee.getRole().getId(),
@@ -156,10 +166,55 @@ public class EmployeeService {
 					employee.getPhone(),
 					employee.getSalary(),
 					employee.getJoiningDate(),
+					employee.getStatus(),
 					employee.getDepartment().getId(),
 					employee.getDepartment().getName(),
 					employee.getRole().getId(),
 					employee.getRole().getRole()
+				)).toList();
+	}
+
+	public List<EmployeeResponseDTO> getEmployeeLimit(String sort, int limit) {
+		
+		Pageable pageable = PageRequest.of(0, limit);
+		
+		List<Employee> employees;
+		if(sort.equalsIgnoreCase("asc")) {
+			employees = employeeRepo.findEmployeesAsc(pageable);
+		} else {
+			employees = employeeRepo.findEmployeesDesc(pageable);
+		}
+		
+		return employees.stream().map(employee -> new EmployeeResponseDTO(
+				employee.getId(),
+				employee.getName(),
+				employee.getEmail(),
+				employee.getPhone(),
+				employee.getSalary(),
+				employee.getJoiningDate(),
+				employee.getStatus(),
+				employee.getDepartment().getId(),
+				employee.getDepartment().getName(),
+				employee.getRole().getId(),
+				employee.getRole().getRole()
+				)).toList();
+	}
+
+	public List<EmployeeResponseDTO> getByDepartmentID(int department) {
+		List<Employee> employees = employeeRepo.findEmployeesByDepartmentID(department);
+		
+		return employees.stream().map( employee -> new EmployeeResponseDTO(
+				employee.getId(),
+				employee.getName(),
+				employee.getEmail(),
+				employee.getPhone(),
+				employee.getSalary(),
+				employee.getJoiningDate(),
+				employee.getStatus(),
+				employee.getDepartment().getId(),
+				employee.getDepartment().getName(),
+				employee.getRole().getId(),
+				employee.getRole().getRole()
 				)).toList();
 	}
 	

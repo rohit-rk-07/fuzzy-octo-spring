@@ -86,4 +86,18 @@ public class EmployeeController {
 			return new ResponseEntity<>(employees, HttpStatus.OK);
 	}
 	
+	//GET-API end-point to fetch data on limit 
+	@GetMapping("/employees/limit")
+	public ResponseEntity<List<EmployeeResponseDTO>> getEmployeesLimit(@RequestParam String sort, @RequestParam int limit) {
+		List<EmployeeResponseDTO> employees = employeeService.getEmployeeLimit(sort, limit);
+		return new ResponseEntity<>(employees, HttpStatus.OK);
+	}
+	
+	//GET-API end-point to fetch data based on department Id
+	@GetMapping("/employees/department")
+	public ResponseEntity<List<EmployeeResponseDTO>> getByDepartmentID(@RequestParam int department) {
+		List<EmployeeResponseDTO> employees = employeeService.getByDepartmentID(department);
+		return new ResponseEntity<>(employees, HttpStatus.OK);
+	}
+	
 }

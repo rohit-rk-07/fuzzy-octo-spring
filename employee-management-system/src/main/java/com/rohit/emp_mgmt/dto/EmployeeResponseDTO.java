@@ -10,6 +10,7 @@ public record EmployeeResponseDTO(
 		String phone,
 		int salary,
 		Date joiningDate,
+		String status,
 		int departmentId,
 		String departmentName,
 		int roleId,

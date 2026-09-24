@@ -7,5 +7,4 @@ import com.rohit.emp_mgmt.model.Project;
 
 @Repository
 public interface ProjectRepository extends JpaRepository<Project, Integer> {
-
 }

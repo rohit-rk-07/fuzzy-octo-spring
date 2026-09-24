@@ -42,6 +42,9 @@ public class Employee {
 	@Column(name="emp_join_date")
 	private Date joiningDate;
 	
+	@Column(name="emp_status")
+	private String status;
+	
 	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="department_id", nullable=false)
 	private Department department;
