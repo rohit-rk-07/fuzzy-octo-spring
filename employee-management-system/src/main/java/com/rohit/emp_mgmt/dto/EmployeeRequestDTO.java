@@ -7,6 +7,7 @@ public record EmployeeRequestDTO (
 		String name,
 		String email,
 		String phone,
+		String gender,
 		int salary,
 		Date joiningDate,
 		String status,

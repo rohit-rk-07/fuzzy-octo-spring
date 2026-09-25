@@ -33,6 +33,9 @@ public class Employee {
 	@Column(name="emp_email")
 	private String email;
 	
+	@Column(name="emp_gender")
+	private String gender;
+	
 	@Column(name="emp_phone")
 	private String phone;
 	

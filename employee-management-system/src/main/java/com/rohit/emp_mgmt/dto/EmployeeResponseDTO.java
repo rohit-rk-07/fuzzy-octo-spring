@@ -7,6 +7,7 @@ public record EmployeeResponseDTO(
 		Integer id,
 		String name,
 		String email,
+		String gender,
 		String phone,
 		int salary,
 		Date joiningDate,

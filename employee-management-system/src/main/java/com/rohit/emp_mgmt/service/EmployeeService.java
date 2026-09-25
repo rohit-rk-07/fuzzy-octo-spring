@@ -38,6 +38,7 @@ public class EmployeeService {
 				employee.getId(),
 				employee.getName(),
 				employee.getEmail(),
+				employee.getGender(),
 				employee.getPhone(),
 				employee.getSalary(),
 				employee.getJoiningDate(),
@@ -59,6 +60,7 @@ public class EmployeeService {
 					employee.getId(),
 					employee.getName(),
 					employee.getEmail(),
+					employee.getGender(),
 					employee.getPhone(),
 					employee.getSalary(),
 					employee.getJoiningDate(),
@@ -77,6 +79,7 @@ public class EmployeeService {
 		Employee employee = new Employee();
 		employee.setName(employeeDTO.name());
 		employee.setEmail(employeeDTO.email());
+		employee.setGender(employeeDTO.gender());
 		employee.setPhone(employeeDTO.phone());
 		employee.setSalary(employeeDTO.salary());
 		employee.setStatus(employeeDTO.status());
@@ -98,6 +101,7 @@ public class EmployeeService {
 				savedEmployee.getId(),
 				savedEmployee.getName(),
 				savedEmployee.getEmail(),
+				savedEmployee.getGender(),
 				savedEmployee.getPhone(),
 				savedEmployee.getSalary(),
 				savedEmployee.getJoiningDate(),
@@ -118,6 +122,7 @@ public class EmployeeService {
 		employee.setName(employeeDTO.name());
 		employee.setEmail(employeeDTO.email());
 		employee.setPhone(employeeDTO.phone());
+		employee.setGender(employeeDTO.gender());
 		employee.setSalary(employeeDTO.salary());
 		employee.setStatus(employeeDTO.status());
 		employee.setJoiningDate(employeeDTO.joiningDate());
@@ -137,6 +142,7 @@ public class EmployeeService {
 				updatedEmployee.getId(),
 				updatedEmployee.getName(),
 				updatedEmployee.getEmail(),
+				updatedEmployee.getGender(),
 				updatedEmployee.getPhone(),
 				updatedEmployee.getSalary(),
 				updatedEmployee.getJoiningDate(),
@@ -163,6 +169,7 @@ public class EmployeeService {
 					employee.getId(),
 					employee.getName(),
 					employee.getEmail(),
+					employee.getGender(),
 					employee.getPhone(),
 					employee.getSalary(),
 					employee.getJoiningDate(),
@@ -189,6 +196,7 @@ public class EmployeeService {
 				employee.getId(),
 				employee.getName(),
 				employee.getEmail(),
+				employee.getGender(),
 				employee.getPhone(),
 				employee.getSalary(),
 				employee.getJoiningDate(),
@@ -207,6 +215,7 @@ public class EmployeeService {
 				employee.getId(),
 				employee.getName(),
 				employee.getEmail(),
+				employee.getGender(),
 				employee.getPhone(),
 				employee.getSalary(),
 				employee.getJoiningDate(),
@@ -217,5 +226,24 @@ public class EmployeeService {
 				employee.getRole().getRole()
 				)).toList();
 	}
+	
+	public List<EmployeeResponseDTO> getByRoleID(int role) {
+		List<Employee> employees = employeeRepo.findEmployeesByRoleID(role);
+		
+		return employees.stream().map( employee -> new EmployeeResponseDTO(
+				employee.getId(),
+				employee.getName(),
+				employee.getEmail(),
+				employee.getGender(),
+				employee.getPhone(),
+				employee.getSalary(),
+				employee.getJoiningDate(),
+				employee.getStatus(),
+				employee.getDepartment().getId(),
+				employee.getDepartment().getName(),
+				employee.getRole().getId(),
+				employee.getRole().getRole()
+				)).toList();
+ 	}
 	
 }

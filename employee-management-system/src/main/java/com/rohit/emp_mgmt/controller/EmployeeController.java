@@ -100,4 +100,11 @@ public class EmployeeController {
 		return new ResponseEntity<>(employees, HttpStatus.OK);
 	}
 	
+	//GET-API End-point to fetch data based on role Id
+	@GetMapping("/employees/role")
+	public ResponseEntity<List<EmployeeResponseDTO>> getByRoleID(@RequestParam int role) {
+		List<EmployeeResponseDTO> employees = employeeService.getByRoleID(role);
+		return new ResponseEntity<>(employees, HttpStatus.OK);
+	}
+	
 }
