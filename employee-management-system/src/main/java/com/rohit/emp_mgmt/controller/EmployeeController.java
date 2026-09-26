@@ -73,7 +73,7 @@ public class EmployeeController {
 			
 			if(employee != null) {
 				employeeService.deleteEmployee(id);
-				return new ResponseEntity<>("Deleted", HttpStatus.NO_CONTENT);
+				return new ResponseEntity<>("Deleted", HttpStatus.OK);
 			} else {
 				return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 			}
