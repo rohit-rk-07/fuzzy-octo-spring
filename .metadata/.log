@@ -1,4 +1,4 @@
-!SESSION 2026-09-25 14:03:17.119 -----------------------------------------------
+!SESSION 2026-10-10 13:12:37.313 -----------------------------------------------
 eclipse.buildId=4.40.0.20260604-0652
 java.version=21.0.10
 java.vendor=Eclipse Adoptium
@@ -7,498 +7,231 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\Users\91636\Spring-workspace\.metadata\.bak_0.log
-Created Time: 2026-09-25 22:41:05.954
+Created Time: 2026-10-10 14:42:36.457
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:41:05.955
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:41:05.957
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:41:46.577
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:36.458
 !MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:41:46.577
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:36.459
 !MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:41:46.578
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:36.460
 !MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:41:46.578
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:36.461
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:07.890
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:51.953
 !MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:07.892
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:51.954
 !MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:07.892
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:51.955
 !MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:07.893
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:42:51.955
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:11.530
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:10.187
 !MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:11.531
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:10.188
 !MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:11.532
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:10.188
 !MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:11.533
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:10.189
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:28.828
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:17.522
 !MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:28.829
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:17.522
 !MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:28.829
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:17.523
 !MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:28.830
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-10 14:43:17.523
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:40.152
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:40.154
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:40.154
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:40.155
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:48.141
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:48.141
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:48.142
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:48.142
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:52.820
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:52.821
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:52.821
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:42:52.822
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:26.152
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:26.153
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:26.153
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:26.154
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:30.235
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:30.236
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:30.236
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:30.237
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:38.321
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:38.322
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:38.323
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:38.323
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.lsp4e 4 0 2026-09-25 22:43:48.838
-!MESSAGE TimeoutException
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:82)
-	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:54)
-	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
-	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
-	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
-	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2087)
-	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:5126)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2086)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
-	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2083)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:585)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:519)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:514)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.lambda$0(ContentAssistant.java:410)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:684)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:58.736
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:58.736
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:58.737
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:43:58.749
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:09.314
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:09.315
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:09.316
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:09.317
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:10.450
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:10.451
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:10.451
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:44:10.452
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 22:44:37.561
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 14:45:07.869
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:13.347
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:13.347
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:13.348
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:13.348
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:23.476
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:23.477
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:23.477
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:23.478
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:32.708
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:32.709
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:32.709
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:32.709
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:42.131
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:42.132
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:42.133
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:46:42.133
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:47:56.722
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:47:56.723
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:47:56.723
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:47:56.724
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:06.409
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:06.409
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:06.410
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:06.410
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:17.316
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:17.316
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:17.317
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:17.317
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:24.308
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:24.309
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:24.309
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:24.310
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:46.582
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:46.583
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:46.584
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:48:46.584
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:02.112
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:02.113
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:02.113
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:02.114
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.lsp4e 2 0 2026-09-25 22:49:13.652
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:16.333
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:16.334
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:16.334
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:16.335
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:34.659
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:34.660
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:34.660
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:34.662
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 22:49:38.490
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 14:55:36.964
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY org.eclipse.lsp4e 2 0 2026-09-25 22:49:42.080
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:44.850
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:44.850
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:44.852
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:44.852
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:55.285
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:55.286
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:55.287
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:49:55.287
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.lsp4e 2 0 2026-09-25 22:50:02.125
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:04.822
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:04.823
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:04.823
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:04.824
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:14.523
-!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:14.524
-!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:14.524
-!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-25 22:50:14.524
-!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 22:54:39.458
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 15:00:38.392
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 22:59:40.430
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 15:05:39.552
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:04:41.228
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 15:10:40.704
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:09:41.857
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 15:15:41.769
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:14:42.815
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 15:20:42.715
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:19:43.554
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 16:52:27.090
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 16:58:23.628
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:24:44.415
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:03:24.463
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:29:45.367
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:08:25.272
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:34:46.186
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:13:26.240
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:39:47.125
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:18:27.023
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:44:48.079
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:23:28.521
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:49:49.044
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:28:29.343
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:54:49.749
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:33:30.226
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-25 23:59:50.709
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:38:30.951
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 00:04:51.599
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:43:31.782
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY org.springframework.tooling.boot.ls 1 0 2026-09-26 00:05:19.354
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:48:32.552
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:53:33.748
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 17:58:34.726
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 18:03:35.682
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 18:08:36.577
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 18:13:36.585
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY org.eclipse.jface 2 0 2026-10-10 18:15:44.969
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-10-10 18:15:44.969
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.springframework.ide.eclipse.boot.restart.commands.restart"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.debug.ui.commands.RunToLine"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-10 19:35:40.495
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-10-10 19:37:04.253
 !MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
-!SESSION 2026-09-26 16:22:48.433 -----------------------------------------------
+
+!ENTRY org.eclipse.debug.core 4 2 2026-10-10 19:37:08.967
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: org.eclipse.swt.SWTException
+	at org.eclipse.swt.widgets.Display.execute(Display.java:835)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.showName(ProcessConsole.java:751)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:745)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.handleDebugEvents(ProcessConsole.java:732)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1422)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1456)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException
+	... 9 more
+
+!ENTRY org.eclipse.debug.core 4 125 2026-10-10 19:37:08.968
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: org.eclipse.swt.SWTException
+	at org.eclipse.swt.widgets.Display.execute(Display.java:835)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.showName(ProcessConsole.java:751)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:745)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.handleDebugEvents(ProcessConsole.java:732)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1422)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1456)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException
+	... 9 more
+
+!ENTRY org.eclipse.debug.core 4 2 2026-10-10 19:37:08.971
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: org.eclipse.swt.SWTException
+	at org.eclipse.swt.widgets.Display.execute(Display.java:835)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.showName(ProcessConsole.java:751)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:745)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.handleDebugEvents(ProcessConsole.java:732)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1422)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1456)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException
+	... 9 more
+
+!ENTRY org.eclipse.debug.core 4 125 2026-10-10 19:37:08.973
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: org.eclipse.swt.SWTException
+	at org.eclipse.swt.widgets.Display.execute(Display.java:835)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.showName(ProcessConsole.java:751)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:745)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.handleDebugEvents(ProcessConsole.java:732)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1422)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1456)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException
+	... 9 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-10-10 19:37:11.397
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.LanguageServerWrapper$1 RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	 at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	 at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+	 at org.eclipse.lsp4e.LanguageServerWrapper$1.run(LanguageServerWrapper.java:578)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-10-11 14:37:29.883 -----------------------------------------------
 eclipse.buildId=4.40.0.20260604-0652
 java.version=21.0.10
 java.vendor=Eclipse Adoptium
@@ -506,376 +239,634 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY ch.qos.logback.classic 1 0 2026-09-26 16:22:53.743
+!ENTRY ch.qos.logback.classic 1 0 2026-10-11 14:37:33.874
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2026-09-26 16:23:07.409
+!ENTRY ch.qos.logback.classic 1 0 2026-10-11 14:37:45.785
 !MESSAGE Logback config file: C:\Users\91636\Spring-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
 
-!ENTRY org.eclipse.ui 2 0 2026-09-26 16:23:08.237
+!ENTRY org.eclipse.ui 2 0 2026-10-11 14:37:46.181
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-26 16:23:08.237
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-11 14:37:46.181
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2026-09-26 16:23:09.003
+!ENTRY org.eclipse.ui 2 0 2026-10-11 14:37:46.514
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-26 16:23:09.003
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-11 14:37:46.514
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.egit.ui 2 0 2026-09-26 16:23:19.864
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-11 14:37:54.557
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\91636'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:22.261
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:22.263
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 16:23:22.553
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:26.269
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:26.270
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:34.274
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:34.275
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:50.279
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:23:50.281
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:24:22.285
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:24:22.286
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:25:26.303
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:25:26.305
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:26:30.320
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:26:30.320
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:27:34.354
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:27:34.354
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 16:28:22.560
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:28:38.375
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:28:38.375
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:29:42.407
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:29:42.407
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:30:46.431
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:30:46.431
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:31:50.452
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:31:50.452
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:32:54.966
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:32:54.998
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 16:33:22.647
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:34:00.156
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:34:00.156
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:35:05.176
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:35:05.176
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:36:10.196
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 16:36:10.196
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:06:33.633
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:06:33.636
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:07:37.650
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:07:37.652
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 17:07:44.086
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:08:41.683
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:08:41.683
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:09:45.708
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:09:45.708
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:10:49.732
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:10:49.732
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:11:53.746
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:11:53.746
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 17:12:44.104
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:12:57.758
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:12:57.758
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:14:01.779
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:14:01.779
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:15:05.790
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:15:05.790
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:16:09.799
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:16:09.799
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:17:13.813
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:17:13.813
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 17:17:44.119
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:18:17.828
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:18:17.828
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:19:21.841
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:19:21.843
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:20:25.849
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:20:25.850
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:21:29.862
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:21:29.862
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:22:33.880
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:22:33.880
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 17:22:44.126
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:23:37.893
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:23:37.893
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:31:41.398
-!MESSAGE Proxies not enabled
-
-!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-09-26 17:31:41.398
-!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 17:34:49.899
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 14:37:57.701
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 17:39:51.176
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-10-11 14:37:58.497
+!MESSAGE Proxies not enabled
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-10-11 14:37:58.497
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY org.eclipse.jface 2 0 2026-10-11 14:38:02.330
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-10-11 14:38:02.331
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 14:42:58.642
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 18:02:56.984
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 18:14:07.303
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 18:53:29.367
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 14:47:59.592
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 18:58:30.670
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:03:31.756
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:08:32.734
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:13:33.375
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:18:34.458
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:23:34.489
-!MESSAGE Phone home failed due to the following issue: app.codetogether.com
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:28:35.775
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:33:36.711
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:38:37.393
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:43:38.119
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:48:39.114
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 19:53:40.080
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 20:01:18.476
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 20:06:19.747
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 20:11:20.861
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 20:16:21.819
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 22:39:47.397
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 22:44:48.386
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 22:49:49.254
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 22:54:50.037
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 22:59:50.956
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:04:52.022
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:09:52.955
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:14:53.813
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:19:54.885
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:24:55.676
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:29:56.630
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:34:57.595
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:39:58.392
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:44:59.190
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:50:00.175
-!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-26 23:52:00.791
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:01.453
 !MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-26 23:52:00.792
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:01.453
 !MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-26 23:52:00.793
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:01.454
 !MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-26 23:52:00.793
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:01.454
 !MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-26 23:55:01.296
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:33.007
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:33.008
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:33.009
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:49:33.010
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:11.089
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:11.091
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:11.091
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:11.092
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:28.098
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:28.099
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:28.100
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:28.101
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:42.605
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:42.606
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:42.606
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:51:42.607
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:52:47.173
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:52:47.174
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:52:47.189
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-11 14:52:47.190
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 14:53:02.449
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 
-!ENTRY com.codetogether.hq.eclipse 1 0 2026-09-27 00:00:02.050
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 15:57:27.630
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:02:30.621
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:07:31.752
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:12:33.455
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:17:34.332
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:22:35.295
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:27:36.106
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:32:36.893
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:47:32.780
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:52:33.781
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 16:57:34.653
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:02:35.606
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:07:35.608
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:12:35.645
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:17:37.832
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:36:14.988
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:41:15.012
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-11 17:46:34.437
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-10-11 21:53:24.385
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+
+!ENTRY org.eclipse.jface 2 0 2026-10-11 21:54:14.856
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-10-11 21:54:14.856
+!MESSAGE A conflict occurred for ALT+SHIFT+B:
+Binding(ALT+SHIFT+B,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb,Show In Breadcrumb,
+		Shows the Java editor breadcrumb and sets the keyboard focus into it,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+B,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb,Show In Breadcrumb,
+		Shows the Java editor breadcrumb and sets the keyboard focus into it,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.breadcrumbEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-10-11 21:55:33.310
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-10-11 21:55:37.719
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.lsp4e.LanguageServerWrapper$1 RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	 at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	 at java.base/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+	 at org.eclipse.lsp4e.LanguageServerWrapper$1.run(LanguageServerWrapper.java:578)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-10-14 18:49:51.702 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-14 18:49:57.074
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-14 18:50:12.264
+!MESSAGE Logback config file: C:\Users\91636\Spring-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-14 18:50:13.109
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-14 18:50:13.109
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-10-14 18:50:13.744
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-14 18:50:13.744
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-14 18:50:25.822
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\91636'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-10-14 18:50:29.640
+!MESSAGE Proxies not enabled
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-10-14 18:50:29.641
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 18:50:30.025
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 18:55:31.062
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:00:31.842
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:05:32.820
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:10:37.282
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:15:38.145
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:20:38.954
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:25:40.021
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 19:30:40.054
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:18:19.405
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:23:20.315
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:28:21.327
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:33:22.379
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:38:23.267
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:43:24.334
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-14 23:48:25.272
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-10-14 23:48:57.969
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+!SESSION 2026-10-15 14:29:59.255 -----------------------------------------------
+eclipse.buildId=4.40.0.20260604-0652
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-15 14:30:03.199
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-15 14:30:13.819
+!MESSAGE Logback config file: C:\Users\91636\Spring-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-15 14:30:14.218
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-15 14:30:14.218
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-10-15 14:30:14.598
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-15 14:30:14.598
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-15 14:30:22.490
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\91636'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 14:30:26.213
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-10-15 14:30:26.576
+!MESSAGE Proxies not enabled
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2026-10-15 14:30:26.577
+!MESSAGE No proxy data found for url: https://live.codetogether.io/ct-url
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 14:35:27.166
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 14:59:16.497
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:04:17.570
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:09:18.500
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:14:19.433
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:19:20.303
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:24:21.283
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:29:22.186
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:34:22.965
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:39:34.121
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:44:51.640
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:47:40.328
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:47:40.330
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:47:40.332
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:47:40.333
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:48:11.720
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:48:11.732
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:48:11.734
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:48:11.735
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:49:52.796
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:51:52.056
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:51:52.056
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:51:52.057
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 15:51:52.058
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:54:54.126
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 15:59:54.972
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:15.000
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:15.001
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:15.002
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:15.004
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-10-15 16:03:22.318
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:24.342
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:24.343
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:24.344
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:03:24.344
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 16:04:55.789
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:05:50.416
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:05:50.417
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:05:50.418
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:05:50.419
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 16:09:56.915
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:18:43.423
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:18:43.424
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:18:43.425
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:18:43.426
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 16:21:14.092
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:24:55.732
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:24:55.732
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:24:55.733
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:24:55.734
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:25:38.508
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:25:38.509
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:25:38.510
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 16:25:38.510
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 16:26:15.342
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 16:31:16.509
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 16:58:59.525
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 17:04:00.572
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 18:37:44.024
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 18:42:44.972
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 18:47:45.944
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 18:52:46.572
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 18:57:47.535
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:02:48.312
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:07:49.136
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:12:50.099
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:17:50.125
+!MESSAGE Phone home failed due to the following issue: app.codetogether.com
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:22:52.165
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:25:34.715
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:25:34.716
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:25:34.716
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:25:34.716
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:27:53.347
+!MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:30:49.699
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:30:49.700
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:30:49.700
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:30:49.701
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:05.178
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:05.179
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:05.180
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:05.181
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:14.545
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:14.546
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:14.546
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:14.547
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:39.855
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:39.856
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:39.857
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-15 19:32:39.858
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-10-15 19:32:54.602
 !MESSAGE Phone home failed due to the following issue: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $

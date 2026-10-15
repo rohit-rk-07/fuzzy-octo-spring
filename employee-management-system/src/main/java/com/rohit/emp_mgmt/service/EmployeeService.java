@@ -2,12 +2,13 @@ package com.rohit.emp_mgmt.service;
 
 import java.util.List;
 
+//import org.hibernate.query.Page;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.rohit.emp_mgmt.dto.DashboardStatsDTO;
 //import com.rohit.emp_mgmt.controller.EmployeeResponseDTO;
 import com.rohit.emp_mgmt.dto.EmployeeRequestDTO;
 import com.rohit.emp_mgmt.dto.EmployeeResponseDTO;
@@ -245,5 +246,42 @@ public class EmployeeService {
 				employee.getRole().getRole()
 				)).toList();
  	}
+
+//	public List<EmployeeResponseDTO> getPaginationData(Pageable pageable) {
+//		List<Employee> employees = employeeRepo.findAll(pageable).getContent();
+//		return employees.stream().map( employee -> new EmployeeResponseDTO(
+//				employee.getId(),
+//				employee.getName(),
+//				employee.getEmail(),
+//				employee.getGender(),
+//				employee.getPhone(),
+//				employee.getSalary(),
+//				employee.getJoiningDate(),
+//				employee.getStatus(),
+//				employee.getDepartment().getId(),
+//				employee.getDepartment().getName(),
+//				employee.getRole().getId(),
+//				employee.getRole().getRole()
+//				)).toList();
+//	}
+	
+	public Page<EmployeeResponseDTO> getPaginationData(Pageable pageable) {
+	    Page<Employee> employeePage = employeeRepo.findAll(pageable);
+	    
+	    return employeePage.map(employee -> new EmployeeResponseDTO(
+	            employee.getId(),
+	            employee.getName(),
+	            employee.getEmail(),
+	            employee.getGender(),
+	            employee.getPhone(),
+	            employee.getSalary(),
+	            employee.getJoiningDate(),
+	            employee.getStatus(),
+	            employee.getDepartment().getId(),
+	            employee.getDepartment().getName(),
+	            employee.getRole().getId(),
+	            employee.getRole().getRole()
+	    ));
+	}
 	
 }

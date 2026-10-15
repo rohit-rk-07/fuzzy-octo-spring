@@ -3,6 +3,8 @@ package com.rohit.emp_mgmt.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -105,6 +107,22 @@ public class EmployeeController {
 	public ResponseEntity<List<EmployeeResponseDTO>> getByRoleID(@RequestParam int role) {
 		List<EmployeeResponseDTO> employees = employeeService.getByRoleID(role);
 		return new ResponseEntity<>(employees, HttpStatus.OK);
+	}
+	
+	//GET-API End-point to fetch pagination data
+//	@GetMapping("/employees_list") 
+//	public ResponseEntity<List<EmployeeResponseDTO>> getPaginationData(@RequestParam int pageNo, @RequestParam int pageSize) {
+//		List<EmployeeResponseDTO> employees = employeeService.getPaginationData(PageRequest.of(pageNo-1, pageSize));
+//		return new ResponseEntity<>(employees, HttpStatus.OK);
+//	}
+	
+	@GetMapping("/employees_list") 
+	public ResponseEntity<Page<EmployeeResponseDTO>> getPaginationData(
+	        @RequestParam int pageNo, 
+	        @RequestParam int pageSize) {
+	    
+	    Page<EmployeeResponseDTO> employeePage = employeeService.getPaginationData(PageRequest.of(pageNo - 1, pageSize));
+	    return new ResponseEntity<>(employeePage, HttpStatus.OK);
 	}
 	
 }
