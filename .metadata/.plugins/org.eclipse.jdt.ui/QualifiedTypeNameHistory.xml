@@ -27,7 +27,6 @@
     <fullyQualifiedTypeName name="com.rohit.emp_mgmt.dto.DepartmentResponseDTO"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="com.rohit.emp_mgmt.model.Role"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
@@ -46,4 +45,7 @@
     <fullyQualifiedTypeName name="org.springframework.security.web.csrf.CsrfToken"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.Customizer"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="com.rohit.spring_sec_demo.model.User"/>
 </qualifiedTypeNameHistroy>
