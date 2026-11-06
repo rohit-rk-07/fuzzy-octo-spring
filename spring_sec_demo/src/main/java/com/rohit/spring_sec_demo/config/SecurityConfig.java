@@ -10,53 +10,57 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.factory.PasswordEncoderFactories;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
-	
+
 	@Autowired
 	private UserDetailsService userDetailsService;
+
+    @Bean
+    public AuthenticationProvider authProvider() {
+        // Setter method of DaoAuthenticationProvider is deprecated
+        // Constructor is used
+        DaoAuthenticationProvider provider=new DaoAuthenticationProvider(userDetailsService);
+        provider.setPasswordEncoder(new BCryptPasswordEncoder(12));
+        return provider;
+    }
+
+	
+	
+	
 	
 	@Bean
-	public AuthenticationProvider authProvider() {
-		
-		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-		
-		provider.setUserDetailsService(userDetailsService);
-		provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance());
-		
-		return provider;
-	}
-	
-	@Bean
-	public SecurityFilterChain securityFilterChain(HttpSecurity http) {
-		
-		http.csrf(customizer -> customizer.disable());
-		http.authorizeHttpRequests(request -> request.anyRequest().authenticated());
-		http.httpBasic(Customizer.withDefaults());
-		http.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
-		
+	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
+		http.csrf(customizer -> customizer.disable())
+				.authorizeHttpRequests(request -> request.anyRequest().authenticated())
+				.httpBasic(Customizer.withDefaults())
+				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
+
 		return http.build();
 	}
 	
-//	@Bean
-//	public UserDetailsService userDetailsServices() {
-//		
-//		UserDetails user = User.withDefaultPasswordEncoder()
-//							.username("rohit")
-//							.password("r@123")
-//							.roles("USER")
-//							.build();
-//		
-//		UserDetails admin = User.withDefaultPasswordEncoder()
-//				.username("admin")
-//				.password("a@123")
-//				.roles("ADMIN")
-//				.build();
-//		
-//		return new InMemoryUserDetailsManager(user, admin);
-//	}
+	
+	
+	
+	
+	/*
+	 * @Bean public UserDetailsService userDetailsService() {
+	 * 
+	 * UserDetails user=User .withDefaultPasswordEncoder() .username("navin")
+	 * .password("n@123") .roles("USER") .build();
+	 * 
+	 * UserDetails admin=User .withDefaultPasswordEncoder() .username("admin")
+	 * .password("admin@789") .roles("ADMIN") .build();
+	 * 
+	 * return new InMemoryUserDetailsManager(user,admin); }
+	 */
+	
+	
 }
